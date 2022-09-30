@@ -7,6 +7,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static('public'));
+var PORT = process.env.PORT||3001;
+
 
 // WEBSITE SERVER
 // GET request fetching input. Users request the app from a web browser, we will serve the HTML file.
@@ -58,6 +60,6 @@ readAndAppend(req.body, "db/db.json")
 //   res.json(`${req.method} request received to save the input`);
 })
 
-app.listen(3001, () =>
+app.listen(PORT, () =>
   console.log(`App listening at http://localhost:3001`)
 );
