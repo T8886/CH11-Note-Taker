@@ -49,9 +49,8 @@ app.post('/api/notes', (req, res) => {
 console.log(req.body);
 readAndAppend(req.body, "db/db.json")
 res.json(`${req.method} request received to save the input`);
-
-
 })
+
 
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:3001`)
