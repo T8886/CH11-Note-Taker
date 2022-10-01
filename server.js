@@ -38,26 +38,19 @@ app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
-app.get('/api/notes', (req,res) => {
-    // READ file db/db.json
-    // Then return everything in db/db.json 
-    // like: res.json(....)
-    res.json([
-        {title:"fake note", text:"fake info"},
-        {title:"fake note 2", text:"faker info"}
-    ])
-})
+app.get('/api/notes', (req,res) => 
+  res.sendFile(path.join(__dirname, './db/db.json'))
+  );
+
   
 //INFO SERVER
 //When the user clicks on the save button on the HTML page i will POST the request to Server and get the response.
 app.post('/api/notes', (req, res) => {
 console.log(req.body);
 readAndAppend(req.body, "db/db.json")
+res.json(`${req.method} request received to save the input`);
 
-//   var title = req.body.title;
-//   var text = req.body.text;
-//   console.log(title, text );
-//   res.json(`${req.method} request received to save the input`);
+
 })
 
 app.listen(PORT, () =>
