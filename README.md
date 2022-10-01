@@ -1,11 +1,11 @@
 # CH11-Note-Taker
 
 ## Table of Contents:
-* [Description]()
-* [Visual Presentation]()
-* [Installation]()
-* [Usage]()
-* [License]
+* [Description](https://github.com/T8886/CH11-Note-Taker#description)
+* [Mock-Up](https://github.com/T8886/CH11-Note-Taker#mock-up)
+* [Build with](https://github.com/T8886/CH11-Note-Taker#build-with)
+* [Installation](https://github.com/T8886/CH11-Note-Taker#installation)
+* [License](https://github.com/T8886/CH11-Note-Taker#license)
 
 ## Description:
 Application Note Taker was created to help people become more organized. Individual can enter and save notes. Below is an overview on how application works.
@@ -23,14 +23,14 @@ THEN that note appears in the right-hand column.
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column.
 
-##  Mock-Up:
+## Mock-Up:
 The following images show the web application's appearance and functionality:
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-express-homework-demo-01.png)
-![Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.](./Assets/11-express-homework-demo-02.png)
+![Click Start button to get to the next page.](./1.png)
+![Notes that were previously entered are listed in the left-hand column. User can enter Title and text in the middle of the screen. Click button save on a right side of the screen and entered note with teh title will be saved on the right side of the screen.](./2.png)
 
 ## Build with:
 * JavaScript
-* NodeJS - Express
+* Node.JS - Express
 
 ## Installation:
 * App can be downloaded through Github
