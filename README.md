@@ -25,8 +25,8 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Mock-Up:
 The following images show the web application's appearance and functionality:
-![* Click Start button to get to the next page.](./images/1.png)
-! [* Notes that were previously entered are listed in the left-hand column. User can enter Title and text in the middle of the screen. Click button save on a right side of the screen and entered note with teh title will be saved on the right side of the screen.](assets/images/2.png)
+![* Click Start button to get to the next page.](public/assets/images/1.png)
+! [* Notes that were previously entered are listed in the left-hand column. User can enter Title and text in the middle of the screen. Click button save on a right side of the screen and entered note with teh title will be saved on the right side of the screen.](public/assets/images/2.png)
 
 ## Build with:
 * JavaScript
